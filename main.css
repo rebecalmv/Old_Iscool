@@ -59,12 +59,18 @@ body {
     color: #333;
 }
 
+.footer {
+    background-color: #333;
+}
+
+@media (max-width: 1180px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
     }
-}
-
-.footer {
-    background-color: #333;
 }
