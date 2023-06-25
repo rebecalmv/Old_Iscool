@@ -1,0 +1,65 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #333;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
+
+.section-title{
+    font-family: 'Courier Prime', monospace;
+} 
+
+#sobre-o-restaurante {
+    background-color: #dadada;
+}
+
+.text-colored {
+    color: #d37024 ;
+}
+
+.nav-catalogo .nav-link.active,
+#formulario button {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-catalogo .nav-link:hover {
+    color: #333;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.footer {
+    background-color: #333;
+}
