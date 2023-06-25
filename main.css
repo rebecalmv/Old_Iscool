@@ -30,8 +30,13 @@ body {
     background-color: #dadada;
 }
 
-.text-colored {
+.text-colored,
+.text-hov:hover {
     color: #d37024 ;
+}
+
+.text-color {
+    color: #333;
 }
 
 .nav-catalogo .nav-link.active,
